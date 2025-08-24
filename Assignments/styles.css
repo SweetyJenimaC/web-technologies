@@ -1,0 +1,16 @@
+
+.card {
+    width: 450px;
+    height: 700px;
+    background-color: #ffffff;
+    border: solid;
+}
+
+.card h1 {
+    color: #880e4f;
+}
+
+.card p {
+    color: #333;
+}
+

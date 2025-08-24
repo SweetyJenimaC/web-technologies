@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 70px;
+    width: 100vw;
+}
+nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(251, 248, 248);
+    padding: 0px 30px;
+    
+}
+aside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 100px;
+}
+img[alt="logo"]{
+    height: 70px;
+    width: 70px;
+}
+aside p{
+    padding: 5px 15px;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+#center>input{
+    
+    width: 300px;
+    border-radius: 20px;
+    padding: 5px;
+    border: solid;
+}
+#music>label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+#right>div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+
+}

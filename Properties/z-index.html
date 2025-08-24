@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        section{
+            height: 500px;
+            width: 500px;
+            border: solid;
+            position: relative;
+        }
+        div{
+            width: 60px;
+            height: 60px;
+            border: solid;
+        }
+        body{
+            height: 700px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div:nth-child(1){
+            background-color: red;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: 5;
+        }
+        div:nth-child(2){
+            background-color: blue;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            /* z-index: 1; */
+        }
+        div:nth-child(3){
+            background-color: yellow;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            /* z-index: 1; */
+        }
+        div:nth-child(4){
+            background-color: green;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            /* z-index: 1; */
+        }
+        div:nth-child(5){
+            background-color: purple;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            /* z-index: 1; */
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 70px;
+    width: 5oovw;
+}
+nav{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+    cursor: pointer;
+}
+img[alt="logo"]{
+    
+    height: 50px;
+    width: 50px;
+}
+
+#center>ul{
+    
+    display: flex;
+    list-style-type: none;
+    gap: 0px 20px;
+}
+#right>button{
+    padding:15px 20px;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: white;
+}
+#right>button:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+main{
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+    margin-top: 50px;
+}
+main section{
+    display: flex;
+    background-color: white;
+    padding: 70px 60px;
+}
+main section aside{
+    flex-basis: 50%;
+    flex-direction: column;
+}
+main section aside:nth-child(2){
+    display: flex;
+    justify-content: flex-end;
+    height: 500px;
+}
+main section aside:nth-child(2) video{
+    height: 500px;
+    width: 800px;
+}
+main section aside:nth-child(1){
+    display: flex;
+    margin: 5px 20px;
+    padding: 70px 60px;
+}
+main section aside:nth-child(1) p:nth-child(1){
+    color: rgb(83, 81, 81);
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main section aside:nth-child(1) p:nth-child(2){
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    
+}
+main section aside:nth-child(1) button {
+    margin-top: 50px;
+    width: 50%;
+    padding: 18px 20px;
+    font-size: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: blue;
+    color: white;
+    border: none;
+
+}
+main section aside:nth-child(1) button:hover{
+    cursor: pointer;
+    background-color: rgb(35, 35, 226);
+}

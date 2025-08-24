@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        section{
+            height: 600px;
+            width: 800px;
+            border: solid;
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr  1fr 1fr 1fr 1fr 1fr 1fr ;
+            grid-template-rows:auto auto auto auto auto auto auto auto;
+            gap: 5px;
+            background-color: white;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        div:nth-child(1){
+            background-color:skyblue ;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 10;
+        }
+        div:nth-child(2){
+            background-color: white;
+            grid-row-start:3;
+            grid-row-end: 8;
+            grid-column-start:1 ;
+            grid-column-end: 3;
+        }
+        div:nth-child(3){
+            background-color: green;
+            grid-row-start: 3;
+            grid-row-end: 6;
+            grid-column-start:3 ;
+            grid-column-end: 6;
+        }
+        div:nth-child(4){
+            background-color:purple ;
+            grid-row-start: 3;
+            grid-row-end: 6;
+            grid-column-start: 6;
+            grid-column-end: 8;
+        }
+        div:nth-child(5){
+            background-color: white;
+            grid-row-start: 3;
+            grid-row-end: 8;
+            grid-column-start:8 ;
+            grid-column-end: 10;
+        }
+        div:nth-child(6){
+            background-color: orange;
+            grid-row-start: 6;
+            grid-row-end: 8;
+            grid-column-start:3 ;
+            grid-column-end:5 ;
+        }
+        div:nth-child(7){
+            background-color:orange ;
+            grid-row-start: 6;
+            grid-row-end: 8;
+            grid-column-start:5;
+            grid-column-end: 8;
+        }
+        div:nth-child(8){
+            background-color: blue;
+            grid-row-start: 8;
+            grid-row-end: 9;
+            grid-column-start:1 ;
+            grid-column-end: 10;
+        }
+        
+    </style>
+</head>
+<body>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</body>
+</html>

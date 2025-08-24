@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        section{
+            height: 500px;
+            width: 500px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border: solid;
+    
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+         div{
+            height: 80px;
+            width: 80px;
+            border: solid;
+            transition:all 5s 2s linear;
+        } 
+        div:nth-child(1):hover{
+            background-color: red;
+        }
+        div:nth-child(2):hover{
+            border-radius: 50%;
+        }
+        div:nth-child(3):hover{
+            height: 150px;
+        }
+        div:nth-child(4):hover{
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>  
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+         section{
+            height: 500px;
+            width: 500px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border: solid;
+        } 
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div{
+            height: 80px;
+            width: 80px;
+            border: solid;
+            transition: all 2s; 
+        }
+         #one:hover{
+        
+            transform: translate(200px,100px);
+        }
+        #two:hover{
+            transform: scale(0.5);
+        } 
+        #three:hover{
+            transform:skew(45deg,120deg)
+        }
+         #four:hover{
+            transform: rotate(360deg);
+        } 
+    </style>
+</head>
+<body>
+    <section>
+        <div id="one"></div>
+        <div id="two"></div>
+        <div id="three"></div>
+        <div id="four"></div>
+    </section>
+</body>
+</html>

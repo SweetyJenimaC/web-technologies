@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoElement</title>
+    <style>
+        p::first-letter{
+            color: red;
+        }
+        p::first-line{
+            background-color: blue;
+        }
+        p::before{
+            content: "Sweety";
+        }
+        p::after{
+            content: "Jenima";
+        }
+        div::selection{
+            background-color:black;
+            color: red;
+        }
+        ul>li::marker{ 
+            content: "😊"; 
+        }
+    </style>
+</head>
+<body>
+    <p>hello</p>
+    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequuntur perspiciatis, repellendus libero, facere impedit et nam voluptatem, aperiam porro dolorum corporis consectetur dolorem provident! Sunt, maxime ullam. Necessitatibus fugit ratione eaque totam quasi deserunt hic veritatis pariatur tempora illo, veniam cum doloribus perspiciatis dicta sit, doloremque atque a delectus sunt molestiae. Eaque magnam sapiente commodi sit? Harum in quisquam aliquam natus molestiae, quaerat pariatur officia eveniet consequuntur laudantium deleniti iusto ipsum voluptate doloribus, dolore animi quos fugit, veniam quod at culpa minima cupiditate modi. Neque possimus magni facilis consequuntur temporibus, doloribus vitae obcaecati voluptatum numquam nam alias perspiciatis voluptate.</div>
+    <ul>
+        <li>Rose</li>
+        <li>Lotus</li>
+        <li>Lily</li>
+        <li>Hibiscus</li>
+    </ul>
+</body>
+</html>

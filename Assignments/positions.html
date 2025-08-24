@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        section{
+            height: 550px;
+            width: 700px;
+            border: solid;
+            position: relative;
+        }
+        body{
+            height: 800px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        div{
+            height: 60px;
+            width: 120px;
+            border: solid;
+        }
+        div:nth-child(1){
+            background-color: red;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+
+        }
+        div:nth-child(2){
+            background-color: blue;
+            position: absolute;
+            right: 290px;
+            top: 0px;
+        }
+        div:nth-child(3){
+            background-color: green;
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            
+        }
+        div:nth-child(4){
+            background-color: violet;
+            position: absolute;
+            left: 0px;
+            bottom: 245px;
+        }
+        div:nth-child(5){
+            background-color: purple;
+            position: absolute;
+            right: 290px;
+            bottom: 245px;
+        }
+        div:nth-child(6){
+            background-color: yellow;
+            position: absolute;
+            right: 0px;
+            bottom: 245px;
+
+        }
+        div:nth-child(7){
+            background-color: orange;
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+            
+        }
+        div:nth-child(8){
+            background-color: pink;
+            position: absolute;
+            right: 290px;
+            bottom: 0px;
+            
+        }
+        div:nth-child(9){
+            background-color: brown;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+    </section>
+</body>
+</html>

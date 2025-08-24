@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section{
+        height: 400px;
+        width: 800px;
+        border: solid;
+        display: grid;
+        /* grid-template-columns: 100px 100px 100px 100px;*/
+        grid-template-rows: 100px 100px 100px 100px; 
+        /* grid-template-columns: auto auto auto auto; */
+        /* grid-template-columns: 30% 20% 25% 25% ; */
+        /* grid-template-columns: 1fr 5fr 2fr 8fr; */
+        grid-template-columns: repeat(4,25%);
+
+    }
+    </style>
+</head>
+<body>
+    <section>
+
+    </section>
+</body>
+</html>

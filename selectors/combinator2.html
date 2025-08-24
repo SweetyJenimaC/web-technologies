@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator2</title>
+    <style>
+        /* div~h2{
+            color: red;
+        } */
+         /* div+p{
+            color: blue;
+         } */
+          div~h2{
+            color: red;
+          }
+          /* div~article{
+            color:blue;
+          } */
+          div~article~h2{
+            color: yellow;
+          }
+    </style>
+</head>
+<body>
+    <h2>First Heading</h2>
+    <p>First Para</p>
+    <div>First Div</div>
+    <p>Second Para</p>
+    <h2>Second Heading</h2>
+    <article>First Article</article>
+    <p>Third Para</p>
+    <h2>Third Heading</h2>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        section{
+            height: 500px;
+            width: 700px;
+            border: solid;
+        }
+        body{
+            height: 1200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div{
+            height: 125px;
+            width: 120px;
+            border: solid;
+        }
+        div:nth-child(1){
+            background-color: red;
+            /* position: static;
+            right: 100px; not move */
+
+            position: sticky;
+            top: 20px;
+        }
+        div:nth-child(2){
+            background-color: blue;
+            position: relative;
+            left: 200px; /* from left 200px move*/
+            top: 100px; /* from top 100px move*/
+        }
+        div:nth-child(3){
+            background-color: green;
+            position: absolute; 
+            right: 100px;
+            top: 150px;
+        }
+        div:nth-child(4){
+            background-color: yellow;
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+        } 
+    </style>
+</head>
+<body>
+    <section>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </section>
+</body>
+</html>
